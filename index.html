@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Главная страница</title>
+    <meta name="description" content="">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- <link rel="stylesheet" href="libs/bootstrap/css/bootstrap-grid.min.css"> -->
+    
+    
+    <link rel="stylesheet" href="css/main.css">
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajafx/libs/es5-shim/4.5.9/es5-shim.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]--> 
+    <!--[if lt IE 10]>
+      <link rel="stylesheet" href="css/grid-ie9.css">
+    <![endif]-->
+    
+  </head>
+  <body>
+  	<header>
+     <div class="header__top">
+       <div class="row">
+          <div class="header__top-col">
+            <ul class="header__top-mnu">
+              <li><a href="#">Support</a></li>
+              <li><a href="#">Delivery</a></li>
+              <li><a href="#">Legal</a></li>
+              <li><a href="#">About Us</a></li>
+            </ul>
+            <div class="header__top-right">
+              <svg class="icon icon-cart">
+                  <use xlink:href="img/icons-svg/symbol/sprite.svg#cart"></use>
+              </svg>
+              <span class="header__top-var">$</span>
+              <span class="header__top-price">465.00</span>
+              <span class="header__top-cart-items-count">4</span>
+              <span class="header__top-cart-items">Items</span>
+              <a href="#" class="header__top-login">Login</a>
+              <a href="#" class="header__top-login">Register</a>
+            </div>
+          </div>
+        </div> 
+      </div><!-- header__top -->
+
+      <div class="header__middle">
+        <div class="row">
+          <div class="header__middle-col">
+            <div class="header__middle-logo">
+              <picture>
+              <source srcset="img/icons-svg/logo.svg">
+                  <img src="img/pictures/icons-png/logo.png" alt="logo" title="logo">
+                </picture>
+            </div>
+            <div class="header__middle-right">
+              <ul class="header__main-mnu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Men</a></li>
+                <li><a href="#">Women</a></li>
+                <li><a href="#">Children</a></li>
+                <li><a href="#">Baby</a></li>
+                <li><a href="#">Our Brands</a></li>
+                <li><a href="#">Sales</a></li>
+              </ul>
+            </div>
+
+            <a href="#" class="toggle-mnu hidden-lg"><span></span></a>
+
+
+          </div>
+        </div>
+      </div><!-- "header__middle -->
+
+      <div class="header__bottom">
+        <div class="row">
+          <div class="header__bottom-col">
+            <div class="header__bottom-visual">
+              <img src="img/pictures/snike.png" alt="visual">
+            </div>
+          </div>
+          <div class="header__bottom-col">
+            <div class="header__bottom-text">
+              <div class="header__bottom-price">From $80.00</div>
+              <h1>Nike Air Max</h1>
+              <h2>50 Variants</h2>
+              <p>Since this is our favorite sneaker, we’re bringing you
+50 variants to suit everyone’s needs.</p>
+              <a href="#" class="button">BROWSE VARIANTS</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="propositions">
+      <div class="row">
+        <div class="propositions-col">
+          <div class="propositions__block propositions__block--blue" style="background-image: url(img/pictures/discover.jpg)">
+            <svg class="icon icon-crown">
+                <use xlink:href="img/icons-svg/symbol/sprite.svg#crown"></use>
+            </svg>
+            <div class="propositions__slogan">Discover the new</div>
+            <h2>NIKE KYRIE 3</h2>
+            <a href="#" class="button button-blue">VIEW COLLECTION</a>
+          </div>
+        </div>
+        
+        <div class="propositions-col propositions-col--flex">
+          <div class="propositions-col__top">
+            <div class="propositions__block propositions__block--white">
+              <img src="img/pictures/discover.png" alt="alt">
+              <div class="propositions__slogan">Check out the</div>
+              <h2>NEW ARRIVALS</h2>
+              <a href="#" class="button button-blue">diccover</a>
+            </div>
+          </div>
+          <div class="propositions-col__bottom">
+            <div class="propositions__block propositions__block--red" style="background-image: url(img/pictures/atlettes.jpg)">
+              <div class="propositions__slogan">Best for</div>
+              <h2>ATHLETES</h2>
+              
+            </div>
+            <div class="propositions__block propositions__block--white propositions__block--bottom">
+              <img src="img/pictures/para.png" alt="alt">
+              <div class="propositions__slogan">Feel</div>
+              <h2>PREMIUM</h2>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- propositions -->
+
+    <div class="cards">
+      <div class="tabs">
+        <div class="row">
+          <ul class="tabs__list">
+            <li class="tabs__item tabs__item--active"><a href="#item1" class="tabs__link">new</a></li>
+            <li class="tabs__item"><a href="#item2" class="tabs__link">popular</a></li>
+            <li class="tabs__item"><a href="#item3" class="tabs__link">top picks</a></li>
+          </ul>
+        </div>
+        
+        <ul class="tabs__content">
+            
+              <li class="tabs__item" id="item1">
+                <div class="row">
+                 <div class="cards-col card card--discount">
+                  
+                    <div class="card__top">
+                      <div class="card__price">$45.00</div>
+                      <div class="card__sale">$60.00</div>
+                      <div class="card__pers">-25%</div>
+                    </div>
+                    <div class="card__img"><img class="responsive-img" src="img/pictures/card-01.jpg" alt="alt"></div>
+                    <div class="card__bottom">
+                      <div class="card__gender">MEN</div>
+                      <div class="card__descr">Converse Breakpoint<br>Suede Blue</div>
+                      <div class="card__articul">#16378271</div>
+                    </div>
+                  
+                  </div> <!-- cards-col -->
+                  <div class="cards-col card">
+                    
+                      <div class="card__top">
+                        <div class="card__price">$55.00</div>
+                        <div class="card__sale">$60.00</div>
+                        <div class="card__pers">-25%</div>
+                      </div>
+                      <div class="card__img"><img class="responsive-img" src="img/pictures/card-03.jpg" alt="alt"></div>
+                      <div class="card__bottom">
+                        <div class="card__gender">MEN / WOMEN</div>
+                        <div class="card__descr">Converse CT All Star II</div>
+                        <div class="card__articul">#16378271</div>
+                      </div>
+                    
+                  </div> <!-- cards-col -->
+                  <div class="cards-col card card--discount">
+                    
+                      <div class="card__top">
+                        <div class="card__price">$45.00</div>
+                        <div class="card__sale">$60.00</div>
+                        <div class="card__pers">-25%</div>
+                      </div>
+                      <div class="card__img"><img class="responsive-img" src="img/pictures/card-03.jpg" alt="alt"></div>
+                      <div class="card__bottom">
+                        <div class="card__gender">WOMEN</div>
+                        <div class="card__descr">Adidas Pure Boost Chill</div>
+                        <div class="card__articul">#16378271</div>
+                      </div>
+                    
+                  </div> <!-- cards-col -->
+                  <div class="cards-col card">
+                    
+                      <div class="card__top">
+                        <div class="card__price">$45.00</div>
+                        <div class="card__sale">$60.00</div>
+                        <div class="card__pers">-25%</div>
+                      </div>
+                      <div class="card__img"><img class="responsive-img" src="img/pictures/card-04.jpg" alt="alt"></div>
+                      <div class="card__bottom">
+                        <div class="card__gender">MEN</div>
+                        <div class="card__descr">Puma Duplex W Casual</div>
+                        <div class="card__articul">#16378271</div>
+                      </div>
+                    
+                  </div> <!-- cards-col -->
+                  <div class="cards-col card card--discount">
+                    
+                      <div class="card__top">
+                        <div class="card__price">$45.00</div>
+                        <div class="card__sale">$60.00</div>
+                        <div class="card__pers">-25%</div>
+                      </div>
+                      <div class="card__img"><img class="responsive-img" src="img/pictures/card-05.jpg" alt="alt"></div>
+                      <div class="card__bottom">
+                        <div class="card__gender">MEN</div>
+                        <div class="card__descr">Adidas Alphabounce 1M</div>
+                        <div class="card__articul">#16378271</div>
+                      </div>
+                    
+                  </div> <!-- cards-col -->
+                  <div class="cards-col card">
+                    
+                      <div class="card__top">
+                        <div class="card__price">$45.00</div>
+                        <div class="card__sale">$60.00</div>
+                        <div class="card__pers">-25%</div>
+                      </div>
+                      <div class="card__img"><img class="responsive-img" src="img/pictures/card-06.jpg" alt="alt"></div>
+                      <div class="card__bottom">
+                        <div class="card__gender">MEN</div>
+                        <div class="card__descr">Converse Breakpoint<br>Suede Blue</div>
+                        <div class="card__articul">#16378271</div>
+                      </div>
+                    
+                  </div> <!-- cards-col -->
+                  <div class="cards-col card card--discount">
+                    
+                      <div class="card__top">
+                        <div class="card__price">$45.00</div>
+                        <div class="card__sale">$60.00</div>
+                        <div class="card__pers">-25%</div>
+                      </div>
+                      <div class="card__img"><img class="responsive-img" src="img/pictures/card-07.jpg" alt="alt"></div>
+                      <div class="card__bottom">
+                        <div class="card__gender">MEN</div>
+                        <div class="card__descr">Asics GEL-Epirus</div>
+                        <div class="card__articul">#16378271</div>
+                      </div>
+                    
+                  </div> <!-- cards-col -->
+                  <div class="cards-col card">
+                    
+                      <div class="card__top">
+                        <div class="card__price">$45.00</div>
+                        <div class="card__sale">$60.00</div>
+                        <div class="card__pers">-25%</div>
+                      </div>
+                      <div class="card__img"><img class="responsive-img" src="img/pictures/card-08.jpg" alt="alt"></div>
+                      <div class="card__bottom">
+                        <div class="card__gender">MEN</div>
+                        <div class="card__descr">Adidas Originals<br>Courtvantage Mesh</div>
+                        <div class="card__articul">#16378271</div>
+                      </div>
+                    
+                  </div> <!-- cards-col -->
+                  
+                </div>
+              </li>
+              <li class="tabs__item hidden" id="item2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo quasi nostrum modi debitis, neque, fugit dignissimos magni perferendis fugiat fuga, rerum, mollitia quia harum ducimus! Dolores, quidem natus voluptatem quos.</li>
+              <li class="tabs__item hidden" id="item3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem delectus expedita laudantium aut error accusamus eveniet nostrum repudiandae, similique facilis, adipisci accusantium nesciunt, modi perferendis labore veniam dolor, assumenda cupiditate.</li>
+              <li class="tabs__item hidden" id="item4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias veniam quam itaque, sequi, possimus ab odio at rem. Nisi provident pariatur fuga sed ea perspiciatis illum ipsum, beatae similique rerum!</li>
+              <li class="tabs__item hidden" id="item5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem dolorum illo obcaecati a, ratione debitis magnam eveniet repellendus provident odio sed in ea, quidem iste necessitatibus! Ducimus autem dolorem, fugit.</li>
+           
+          </ul>
+      </div>
+    </div><!-- cards -->
+
+    <div class="logotypes">
+      <div class="row">
+        <div class="logotypes-col">
+          <div class="logotypes__icon adidas"></div>
+        </div>
+        <div class="logotypes-col">
+          <div class="logotypes__icon nike"></div>
+        </div>
+        <div class="logotypes-col">
+          <div class="logotypes__icon puma"></div>
+        </div>
+        <div class="logotypes-col">
+          <div class="logotypes__icon dasics"></div>
+        </div>
+        <div class="logotypes-col">
+          <div class="logotypes__icon nb"></div>
+        </div>
+        <div class="logotypes-col">
+          <div class="logotypes__icon fila"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="testimonials">
+      <div class="row">
+        <div class="testimonials-col">
+          <a href="#testimonials__content-item1" class="testimonials__inner">
+            <div class="userpic"><img class="responsive-img" src="img/pictures/user-pic.jpg" alt="alt"></div>
+            <div class="username">Christopher Atkins</div>
+            <div class="user-score">
+              <svg class="icon icon-star">
+                  <use xlink:href="img/icons-svg/symbol/sprite.svg#star"></use>
+              </svg>
+              <svg class="icon icon-star">
+                  <use xlink:href="img/icons-svg/symbol/sprite.svg#star"></use>
+              </svg>
+              <svg class="icon icon-star">
+                  <use xlink:href="img/icons-svg/symbol/sprite.svg#star"></use>
+              </svg>
+              <svg class="icon icon-star">
+                  <use xlink:href="img/icons-svg/symbol/sprite.svg#star"></use>
+              </svg>
+              <svg class="icon icon-star">
+                  <use xlink:href="img/icons-svg/symbol/sprite.svg#star"></use>
+              </svg>
+          </div>
+          </a>
+          <div class="testimonials__inner-text testimonials__inner-text--active">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, esse ipsam praesentium repudiandae voluptatum est assumenda, nam cumque ratione tenetur eos autem soluta officiis laboriosam, non sequi aliquid corrupti animi.
+            <span class="testimonials__inner-triangle"></span>
+            
+          </div>
+        </div>
+        
+        <div class="testimonials-col">
+          <a href="#testimonials__content-item2" class="testimonials__inner testimonials__inner--active">
+            <div class="userpic"><img class="responsive-img" src="img/pictures/user-pic.jpg" alt="alt"></div>
+            <div class="username">Andrew Ferraccioli</div>
+            <div class="user-score">
+              <svg class="icon icon-star">
+                  <use xlink:href="img/icons-svg/symbol/sprite.svg#star"></use>
+              </svg>
+              <svg class="icon icon-star">
+                  <use xlink:href="img/icons-svg/symbol/sprite.svg#star"></use>
+              </svg>
+              <svg class="icon icon-star">
+                  <use xlink:href="img/icons-svg/symbol/sprite.svg#star"></use>
+              </svg>
+              <svg class="icon icon-star">
+                  <use xlink:href="img/icons-svg/symbol/sprite.svg#star"></use>
+              </svg>
+              <svg class="icon icon-star-empty">
+                  <use xlink:href="img/icons-svg/symbol/sprite.svg#star-empty"></use>
+              </svg>
+            </div>
+          </a>
+          <div class="testimonials__inner-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, esse ipsam praesentium repudiandae voluptatum est assumenda, nam cumque ratione tenetur eos autem soluta officiis laboriosam, non sequi aliquid corrupti animi.
+            <span class="testimonials__inner-triangle"></span>
+            
+          </div>
+        </div>
+
+        <div class="testimonials-col">
+          <a href="#testimonials__content-item3" class="testimonials__inner">
+            <div class="userpic"><img class="responsive-img" src="img/pictures/user-pic.jpg" alt="alt"></div>
+            <div class="username">Sandra Jensen</div>
+            <div class="user-score">
+              <svg class="icon icon-star">
+                  <use xlink:href="img/icons-svg/symbol/sprite.svg#star"></use>
+              </svg>
+              <svg class="icon icon-star">
+                  <use xlink:href="img/icons-svg/symbol/sprite.svg#star"></use>
+              </svg>
+              <svg class="icon icon-star">
+                  <use xlink:href="img/icons-svg/symbol/sprite.svg#star"></use>
+              </svg>
+              <svg class="icon icon-star-empty">
+                  <use xlink:href="img/icons-svg/symbol/sprite.svg#star-empty"></use>
+              </svg>
+              <svg class="icon icon-star-empty">
+                  <use xlink:href="img/icons-svg/symbol/sprite.svg#star-empty"></use>
+              </svg>
+            </div>
+            
+          </a>
+          <div class="testimonials__inner-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, esse ipsam praesentium repudiandae voluptatum est assumenda, nam cumque ratione tenetur eos autem soluta officiis laboriosam, non sequi aliquid corrupti animi.
+            <span class="testimonials__inner-triangle"></span>
+            
+          </div>
+        </div>
+       
+      </div><!-- row -->
+
+      <div class="row testimonials__bottom">
+        <div class="testimonials-content-col">
+          <div class="testimonials__content" id="testimonials__content-item1">
+            Skotnik1
+            
+          </div>
+          <div class="testimonials__content testimonials__content--active" id="testimonials__content-item2">
+            Skotnik2
+            
+          </div>
+          <div class="testimonials__content" id="testimonials__content-item3">
+            Skotnik3
+          </div>
+          <div class="testimonials__inner-triangle"></div>
+        </div>
+      </div>
+    </div><!--  testimonials -->
+
+    <section class="news">
+      <div class="row">
+        <h2>latest news</h2>
+      </div>
+      <div class="row">
+        <div class="news-col" style="background-image: url(img/pictures/news-1.jpg);">
+          <div class="news-inner">
+            <div class="news__date">dec27,2017</div>
+            <div class="news__short">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+            <div class="news__comments">
+              <svg class="icon icon-quote">
+                  <use xlink:href="img/icons-svg/symbol/sprite.svg#quote"></use>
+              </svg>
+              <span class="news__comments-count">24</span>
+              <span>Comments</span>
+            </div>
+          </div>
+        </div>
+        <div class="news-col" style="background-image: url(img/pictures/news-2.jpg);">
+          <div class="news-inner">
+            <div class="news__date">dec27,2017</div>
+            <div class="news__short">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+            <div class="news__comments">
+              <svg class="icon icon-quote">
+                <use xlink:href="img/icons-svg/symbol/sprite.svg#quote"></use>
+              </svg>
+              <span class="news__comments-count">24</span>
+              <span>Comments</span>
+            </div>
+          </div>
+        </div>
+        <div class="news-col" style="background-image: url(img/pictures/news-3.jpg);">
+          <div class="news-inner">
+            <div class="news__date">dec27,2017</div>
+            <div class="news__short">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+            <div class="news__comments">
+              <svg class="icon icon-quote">
+                <use xlink:href="img/icons-svg/symbol/sprite.svg#quote"></use>
+              </svg>
+              <span class="news__comments-count">24</span>
+              <span>Comments</span>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+    <div class="help">
+      <div class="row">
+        <div class="help-col fl-start">
+          <svg class="icon icon-mail">
+              <use xlink:href="img/icons-svg/symbol/sprite.svg#mail"></use>
+          </svg>
+          <div class="help__block">
+            <div class="h3">Looking for help?</div>
+            <div class="help__text">Have any questions or need help with order? Let us know!</div>
+          </div>
+        </div>
+        <div class="help-col">
+          <a href="#" class="button">MAKE AN INQUIRY</a>
+        </div>
+      </div>
+    </div><!-- help -->
+
+    <div class="features">
+      <div class="row">
+        <div class="features-col">
+          <svg class="icon icon-shipping">
+              <use xlink:href="img/icons-svg/symbol/sprite.svg#shipping"></use>
+          </svg>
+          <div class="features-text">Free Shipping in Europe</div>
+        </div>
+
+        <div class="features-col">
+          <svg class="icon icon-money-back">
+              <use xlink:href="img/icons-svg/symbol/sprite.svg#money-back"></use>
+          </svg>
+          <div class="features-text">Money Back Guarantee</div>
+        </div>
+
+        <div class="features-col">
+          <svg class="icon icon-support">
+              <use xlink:href="img/icons-svg/symbol/sprite.svg#support"></use>
+          </svg>
+          <div class="features-text">24/7 Customer Support</div>
+        </div>
+
+        <div class="features-col">
+          <svg class="icon icon-lowest-price">
+              <use xlink:href="img/icons-svg/symbol/sprite.svg#lowest-price"></use>
+          </svg>
+          <div class="features-text">Lowest Prices Guaranteed</div>
+        </div>
+
+        <div class="features-col">
+          <svg class="icon icon-exclusive">
+              <use xlink:href="img/icons-svg/symbol/sprite.svg#exclusive"></use>
+          </svg>
+          <div class="features-text">Exclusive Items for Sportshold</div>
+        </div>
+
+        <div class="features-col">
+          <svg class="icon icon-delivery">
+              <use xlink:href="img/icons-svg/symbol/sprite.svg#delivery"></use>
+          </svg>
+          <div class="features-text">5-Day Delivery in Europe</div>
+        </div>
+        
+      </div>
+    </div><!-- features -->
+
+    <div class="contacts">
+      <div class="row">
+        <div class="contacts-col-4">
+          <div class="contacts-block">
+            <div class="contacts-img">
+              <svg class="icon icon-phone">
+                  <use xlink:href="img/icons-svg/symbol/sprite.svg#phone"></use>
+              </svg>
+            </div>
+            <div class="contacts-text">
+              <div class="contacts-title">call us</div>
+              <div class="contacts-info"><a href="tel:0(1213)567890">0 (1213) 567 890</a></div>
+            </div>
+          </div><!-- contacts-block -->
+          <div class="contacts-block">
+            <div class="contacts-img">
+              <svg class="icon icon-mail">
+                  <use xlink:href="img/icons-svg/symbol/sprite.svg#mail"></use>
+              </svg>
+            </div>
+            <div class="contacts-text">
+              <div class="contacts-title">email us</div>
+              <div class="contacts-info"><a href="mailto:hello@sportshold.com">hello@sportshold.com</a></div>
+            </div>
+          </div><!-- contacts-block -->
+          <div class="contacts-block">
+            <div class="contacts-img">
+              <svg class="icon icon-loc">
+                  <use xlink:href="img/icons-svg/symbol/sprite.svg#loc"></use>
+              </svg>
+            </div>
+            <a href="#" class="contacts__map-open">
+              <div class="contacts-title">address</div>
+              <div class="contacts-info">40 Baria Sreet 133/2, NY, US</div>
+            </a>
+          </div><!-- contacts-block -->
+
+        </div>
+        <div class="contacts-col-2">
+          <h4 class="contacts-mnu-title">Navigation</h4>
+          <ul class="contacts-menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Latest news</a></li>
+            <li><a href="#">Reviews</a></li>
+            <li><a href="#">Brands</a></li>
+          </ul>
+        </div>
+        <div class="contacts-col-2">
+          <h4 class="contacts-mnu-title">categries</h4>
+          <ul class="contacts-menu">
+            <li><a href="#">men</a></li>
+            <li><a href="#">woman</a></li>
+            <li><a href="#">children</a></li>
+            <li><a href="#">baby</a></li>
+            <li><a href="#">accessories</a></li>
+          </ul>
+        </div>
+        <div class="contacts-col-2">
+          <h4 class="contacts-mnu-title">sales</h4>
+          <ul class="contacts-menu">
+            <li><a href="#">new arrivals</a></li>
+            <li><a href="#">most popular</a></li>
+            <li><a href="#">top pics</a></li>
+            <li><a href="#">outlet</a></li>
+            
+          </ul>
+        </div>
+        <div class="contacts-col-2">
+          <h4 class="contacts-mnu-title">support</h4>
+          <ul class="contacts-menu">
+            <li><a href="#">shipping and delivery</a></li>
+            <li><a href="#">return policy</a></li>
+            <li><a href="#">terms of service</a></li>
+            <li><a href="#">privacy policy</a></li>
+            <li><a href="#">contact us</a></li>
+          </ul>
+        </div>
+
+        <div class="contacts__map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12067.025535864323!2d-74.6635686!3d40.8772202!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c39e3b7df9423b%3A0xf00ae6fa80fe8b80!2zMiBCYXJpIFN0LCBMZWRnZXdvb2QsIE5KIDA3ODUyLCDQodCo0JA!5e0!3m2!1sru!2sru!4v1503341286452" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+          
+        </div>
+      </div>
+    </div><!-- contacts -->
+
+    <footer>
+      <div class="row">
+        <div class="footer-col">
+          <div class="footer__logo">
+              <picture>
+              <source srcset="img/icons-svg/logo.svg">
+                  <img src="img/pictures/icons-png/logo.png" alt="logo" title="logo">
+                </picture>
+            </div>
+        </div>
+        <div class="footer-col text-center">
+          <span class="copyright">© 2017 Sportshold. All rights reserved.</span>
+        </div>
+        <div class="footer-col text-right">
+          <ul class="socials">
+            <li><a href="">
+              <svg class="icon icon-tube">
+                  <use xlink:href="img/icons-svg/symbol/sprite.svg#tube"></use>
+              </svg>
+            </a></li>
+            <li><a href="">
+              <svg class="icon icon-twi">
+                  <use xlink:href="img/icons-svg/symbol/sprite.svg#twi"></use>
+              </svg>
+            </a></li>
+            <li><a href="">
+              <svg class="icon icon-fb">
+                  <use xlink:href="img/icons-svg/symbol/sprite.svg#fb"></use>
+              </svg>
+            </a></li>
+            <li><a href="">
+              <svg class="icon icon-pint">
+                  <use xlink:href="img/icons-svg/symbol/sprite.svg#pint"></use>
+              </svg>
+            </a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    
+    <div class="hidden"></div>
+    <div class="loader">
+      <div class="loader_inner"></div>
+    </div>
+    <!-- <script src="libs/jquery/jquery-1.11.2.min.js"></script> -->
+    <!--if IE 9
+      
+    -->
+    <script src="js/svg4everybody/svg4everybody.legacy.min.js" async onload="svg4everybody();"></script>
+    
+    <script src="js/libs.min.js"></script>
+    <!--[if lt IE 10]>
+      <script src="js/equalHeights/equalheights.js" onload="$('.card').equalHeights();"></script>
+    <![endif]-->
+    <script src="js/common.js"></script>
+  </body>
+</html>
